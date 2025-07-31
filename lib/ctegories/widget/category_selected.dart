@@ -75,8 +75,8 @@ class _CategorySelectorState extends State<CategorySelector> {
             gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
               crossAxisCount: 2,
               crossAxisSpacing: 19,
-              mainAxisSpacing: 60,
-              mainAxisExtent: 250,
+              mainAxisSpacing: 30,
+              mainAxisExtent: 230,
             ),
             itemCount: activeItems.length,
             itemBuilder: (context, index) {
@@ -87,6 +87,7 @@ class _CategorySelectorState extends State<CategorySelector> {
                 subtitle: item.subtitle,
                 stars: item.stars,
                 time: item.time,
+                isLike: item.isLike,
               );
             },
           ),

@@ -75,6 +75,7 @@ flutter:
     - assets/Images/RecipesByCategories/Salads/
     - assets/Images/RecipesByCategories/Seafood/
     - assets/Images/RecipesByCategories/Vegan/
+    - assets/Images/details/
 
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in

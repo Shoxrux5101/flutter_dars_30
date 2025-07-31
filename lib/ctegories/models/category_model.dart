@@ -4,6 +4,8 @@ class CategoryModel {
   final String subtitle;
   final String stars;
   final String time;
+  final bool isLike;
+
 
   CategoryModel({
     required this.image,
@@ -11,6 +13,7 @@ class CategoryModel {
     required this.subtitle,
     required this.stars,
     required this.time,
+    required this.isLike,
   });
 
 
@@ -21,6 +24,7 @@ class CategoryModel {
       subtitle: "Muffin with Canadian bacon",
       stars: "5",
       time: "15 min",
+      isLike : false,
     ),
     CategoryModel(
       image: "assets/Images/RecipesByCategories/Breakfast/french_toast.png",
@@ -28,6 +32,7 @@ class CategoryModel {
       subtitle: "Delicious slices of bread",
       stars: "5",
       time: "20 min",
+      isLike : false,
     ),
     CategoryModel(
       image: "assets/Images/RecipesByCategories/Breakfast/oatmeal_and_nut.png",
@@ -35,6 +40,7 @@ class CategoryModel {
       subtitle: "Wholesome blend for breakfast",
       stars: "4",
       time: "35 min",
+      isLike : false,
     ),
     CategoryModel(
       image: "assets/Images/RecipesByCategories/Breakfast/still_life_potato.png",
@@ -42,6 +48,7 @@ class CategoryModel {
       subtitle: "Earthy, textured, rustic charm",
       stars: "4",
       time: "30 min",
+      isLike: false,
     ),
     CategoryModel(
       image: "assets/Images/RecipesByCategories/Breakfast/oatmeal_granola.png",
@@ -49,6 +56,7 @@ class CategoryModel {
       subtitle: "Strawberries and Blueberries",
       stars: "4",
       time: "30 min",
+      isLike: false,
     ),
     CategoryModel(
       image: "assets/Images/RecipesByCategories/Breakfast/sunny_bruschetta.png",
@@ -56,6 +64,7 @@ class CategoryModel {
       subtitle: "With Cream Cheese",
       stars: "4",
       time: "30 min",
+      isLike: false,
     ),
     CategoryModel(
       image: "assets/Images/RecipesByCategories/Breakfast/tofu_sandwich.png",
@@ -63,6 +72,7 @@ class CategoryModel {
       subtitle: "Microgreens",
       stars: "4",
       time: "30 min",
+      isLike : false,
     ),
     CategoryModel(
       image: "assets/Images/RecipesByCategories/Breakfast/omelette_cheese.png",
@@ -70,6 +80,7 @@ class CategoryModel {
       subtitle: "Fresh Parsley",
       stars: "4",
       time: "30 min",
+      isLike : false,
     ),
   ];
 
@@ -80,6 +91,7 @@ class CategoryModel {
       subtitle: "Muffin with Canadian bacon",
       stars: "5",
       time: "15 min",
+      isLike: false,
     ),
     CategoryModel(
       image: "assets/Images/RecipesByCategories/Lunch/bbq_tacos.png",
@@ -87,6 +99,7 @@ class CategoryModel {
       subtitle: "Delicious slices of bread",
       stars: "5",
       time: "20 min",
+      isLike: false,
     ),
     CategoryModel(
       image: "assets/Images/RecipesByCategories/Lunch/bechamel_chicken.png",
@@ -94,6 +107,7 @@ class CategoryModel {
       subtitle: "Wholesome blend for breakfast",
       stars: "4",
       time: "35 min",
+      isLike: false,
     ),
     CategoryModel(
       image: "assets/Images/RecipesByCategories/Lunch/chicken_burger.png",
@@ -101,6 +115,7 @@ class CategoryModel {
       subtitle: "Earthy, textured, rustic charm",
       stars: "4",
       time: "30 min",
+      isLike: false,
     ),
     CategoryModel(
       image: "assets/Images/RecipesByCategories/Lunch/chicken_curry.png",
@@ -108,6 +123,7 @@ class CategoryModel {
       subtitle: "Strawberries and Blueberries",
       stars: "4",
       time: "30 min",
+      isLike: false,
     ),
     CategoryModel(
       image: "assets/Images/RecipesByCategories/Lunch/grilled_skewer.png",
@@ -115,6 +131,7 @@ class CategoryModel {
       subtitle: "With Cream Cheese",
       stars: "4",
       time: "30 min",
+      isLike: false,
     ),
     CategoryModel(
       image: "assets/Images/RecipesByCategories/Lunch/pad_thai_chicken.png",
@@ -122,6 +139,7 @@ class CategoryModel {
       subtitle: "Microgreens",
       stars: "4",
       time: "30 min",
+      isLike: false,
     ),
     CategoryModel(
       image: "assets/Images/RecipesByCategories/Lunch/salami_pizza.png",
@@ -129,6 +147,7 @@ class CategoryModel {
       subtitle: "Fresh Parsley",
       stars: "4",
       time: "30 min",
+      isLike: false,
     ),
   ];
 
@@ -139,6 +158,7 @@ class CategoryModel {
       subtitle: "Zesty chicken wrapped in soft tortilla.",
       stars: "4",
       time: "30 min",
+      isLike: false,
     ),
     CategoryModel(
       image: "assets/Images/RecipesByCategories/Dinner/frittata_spinach.png",
@@ -146,6 +166,7 @@ class CategoryModel {
       subtitle: "Savory, fluffy, nutritious delight.",
       stars: "4",
       time: "30 min",
+      isLike: false,
     ),
     CategoryModel(
       image: "assets/Images/RecipesByCategories/Dinner/lemonade.png",
@@ -153,6 +174,7 @@ class CategoryModel {
       subtitle: "Flavorful grilled salmon with savory herbs.",
       stars: "4",
       time: "30 min",
+      isLike: false,
     ),
     CategoryModel(
       image: "assets/Images/RecipesByCategories/Dinner/mexican_appetizer.png",
@@ -160,6 +182,7 @@ class CategoryModel {
       subtitle: "Spicy guacamole and salsa duo",
       stars: "4",
       time: "30 min",
+      isLike: false,
     ),
     CategoryModel(
       image: "assets/Images/RecipesByCategories/Dinner/mexican_hot_chili.png",
@@ -167,6 +190,7 @@ class CategoryModel {
       subtitle: "Two times Spicy.",
       stars: "4",
       time: "30 min",
+      isLike: false,
     ),
     CategoryModel(
       image: "assets/Images/RecipesByCategories/Dinner/smoked_salmon.png",
@@ -174,6 +198,7 @@ class CategoryModel {
       subtitle: "Delicate smoked salmon-filled crepes",
       stars: "4",
       time: "30 min",
+      isLike: false,
     ),
     CategoryModel(
       image: "assets/Images/RecipesByCategories/Dinner/spring_rolls.png",
@@ -181,6 +206,7 @@ class CategoryModel {
       subtitle: "Crispy vegetable spring rolls",
       stars: "4",
       time: "30 min",
+      isLike: false,
     ),
     CategoryModel(
       image: "assets/Images/RecipesByCategories/Dinner/chicken_salad.png",
@@ -188,65 +214,74 @@ class CategoryModel {
       subtitle: "Tangy Thai chicken and veggie salad",
       stars: "4",
       time: "30 min",
+      isLike: false,
     ),
   ];
 
   static final List<CategoryModel> veganItems = [
     CategoryModel(
       image: "assets/Images/RecipesByCategories/Vegan/beans_burger.png",
-      title: "Chicken Wrap",
-      subtitle: "Zesty chicken wrapped in soft tortilla.",
+      title: "Beans Burger",
+      subtitle: "Veggie-packed bean burger patty",
       stars: "4",
       time: "30 min",
+      isLike: false,
     ),
     CategoryModel(
       image: "assets/Images/RecipesByCategories/Vegan/broccoli_lasagna.png",
-      title: "Frittata Spinach",
-      subtitle: "Savory, fluffy, nutritious delight.",
+      title: "Broccoli Lasagna",
+      subtitle: "Cheesy broccoli-filled lasagna layers",
       stars: "4",
       time: "30 min",
+      isLike: false,
     ),
     CategoryModel(
       image: "assets/Images/RecipesByCategories/Vegan/egg_plant_gratin.png",
-      title: "Lemonade",
-      subtitle: "Flavorful grilled salmon with savory herbs.",
+      title: "Egg Plant Gratin",
+      subtitle: "Oven-baked eggplant with savory gratin",
       stars: "4",
       time: "30 min",
+      isLike: false,
     ),
     CategoryModel(
       image: "assets/Images/RecipesByCategories/Vegan/falafel_salad.png",
-      title: "Mexican Appetizer",
-      subtitle: "Spicy guacamole and salsa duo",
+      title: "Quinoa Salad",
+      subtitle: "Nutrient-rich quinoa tossed in salad",
       stars: "4",
       time: "30 min",
+      isLike: false,
     ),
     CategoryModel(
       image: "assets/Images/RecipesByCategories/Vegan/mushroom_risotto.png",
-      title: "Mexican Hot Chili",
-      subtitle: "Two times Spicy.",
+      title: "Mushroom Risotto",
+      subtitle: "Creamy mushroom-infused rice dish",
       stars: "4",
       time: "30 min",
+      isLike: false,
     ),
     CategoryModel(
       image: "assets/Images/RecipesByCategories/Vegan/quinoa_salad.png",
-      title: "Smoked Salmon",
-      subtitle: "Delicate smoked salmon-filled crepes",
+      title: "Falafel Salad",
+      subtitle: "Crisp falafel atop fresh salad greens",
       stars: "4",
       time: "30 min",
+      isLike: false,
     ),
     CategoryModel(
       image: "assets/Images/RecipesByCategories/Vegan/tofu_and_noodles.png",
-      title: "Spring Rolls",
-      subtitle: "Crispy vegetable spring rolls",
+      title: "Veggie Pizza",
+      subtitle: "Colorful veggie-topped pizza pie",
       stars: "4",
       time: "30 min",
+      isLike: false,
     ),
     CategoryModel(
       image: "assets/Images/RecipesByCategories/Vegan/veggie_pizza.png",
-      title: "Chicken Salad",
-      subtitle: "Tangy Thai chicken and veggie salad",
+      title: "Tofu and Noodles",
+      subtitle: "Tender tofu mixed with slurpy noodles",
       stars: "4",
       time: "30 min",
+      isLike: false,
     ),
   ];
 
@@ -257,6 +292,7 @@ class CategoryModel {
       subtitle: "Fruity-filled chocolate crepes",
       stars: "4",
       time: "30 min",
+      isLike: false,
     ),
     CategoryModel(
       image: "assets/Images/RecipesByCategories/Dessert/chocolate_brownie.png",
@@ -264,6 +300,7 @@ class CategoryModel {
       subtitle: "Rich, fudgy chocolate brownie delight",
       stars: "4",
       time: "30 min",
+      isLike: false,
     ),
     CategoryModel(
       image: "assets/Images/RecipesByCategories/Dessert/caramel_flan.png",
@@ -271,6 +308,7 @@ class CategoryModel {
       subtitle: "Delicate, colorful French macarons",
       stars: "4",
       time: "30 min",
+      isLike: false,
     ),
     CategoryModel(
       image: "assets/Images/RecipesByCategories/Dessert/macarons.png",
@@ -278,6 +316,7 @@ class CategoryModel {
       subtitle: "Smooth, decadent caramel flan treat",
       stars: "4",
       time: "30 min",
+      isLike: false,
     ),
     CategoryModel(
       image: "assets/Images/RecipesByCategories/Dessert/nut_brownie.png",
@@ -285,6 +324,7 @@ class CategoryModel {
       subtitle: "Nutty chocolate brownie indulgence",
       stars: "4",
       time: "30 min",
+      isLike: false,
     ),
     CategoryModel(
       image: "assets/Images/RecipesByCategories/Dessert/palmer_pastry.png",
@@ -292,6 +332,7 @@ class CategoryModel {
       subtitle: "Flaky, buttery palmier pastry delight",
       stars: "4",
       time: "30 min",
+      isLike: false,
     ),
     CategoryModel(
       image: "assets/Images/RecipesByCategories/Dessert/spring_cupcake.png",
@@ -299,6 +340,7 @@ class CategoryModel {
       subtitle: "Fresh, spring-themed cupcake sweetness",
       stars: "4",
       time: "30 min",
+      isLike: false,
     ),
     CategoryModel(
       image: "assets/Images/RecipesByCategories/Dessert/cheesecake.png",
@@ -306,6 +348,7 @@ class CategoryModel {
       subtitle: "Creamy strawberry cheesecake bliss",
       stars: "4",
       time: "30 min",
+      isLike: false,
     ),
   ];
 
@@ -316,6 +359,7 @@ class CategoryModel {
       subtitle: "Bold and robust Americano delight",
       stars: "4",
       time: "30 min",
+      isLike: false,
     ),
     CategoryModel(
       image: "assets/Images/RecipesByCategories/Desert/chocolate_brownie.png",
@@ -323,6 +367,7 @@ class CategoryModel {
       subtitle: "Rich, fudgy chocolate brownie delight",
       stars: "4",
       time: "30 min",
+      isLike: false,
     ),
     CategoryModel(
       image: "assets/Images/RecipesByCategories/Desert/caramel_flan.png.png",
@@ -330,6 +375,7 @@ class CategoryModel {
       subtitle: "Delicate, colorful French macarons",
       stars: "4",
       time: "30 min",
+      isLike: false,
     ),
     CategoryModel(
       image: "assets/Images/RecipesByCategories/Desert/macarons.png",
@@ -337,6 +383,7 @@ class CategoryModel {
       subtitle: "Smooth, decadent caramel flan treat",
       stars: "4",
       time: "30 min",
+      isLike: false,
     ),
     CategoryModel(
       image: "assets/Images/RecipesByCategories/Desert/nut_brownie.png",
@@ -344,6 +391,7 @@ class CategoryModel {
       subtitle: "Nutty chocolate brownie indulgence",
       stars: "4",
       time: "30 min",
+      isLike: false,
     ),
     CategoryModel(
       image: "assets/Images/RecipesByCategories/Desert/palmer_pastry.png",
@@ -351,6 +399,7 @@ class CategoryModel {
       subtitle: "Flaky, buttery palmier pastry delight",
       stars: "4",
       time: "30 min",
+      isLike: false,
     ),
     CategoryModel(
       image: "assets/Images/RecipesByCategories/Desert/spring_cupcake.png",
@@ -358,6 +407,7 @@ class CategoryModel {
       subtitle: "Fresh, spring-themed cupcake sweetness",
       stars: "4",
       time: "30 min",
+      isLike: false,
     ),
     CategoryModel(
       image: "assets/Images/RecipesByCategories/Desert/cheesecake.png",
@@ -365,6 +415,7 @@ class CategoryModel {
       subtitle: "Creamy strawberry cheesecake bliss",
       stars: "4",
       time: "30 min",
+      isLike: false,
     ),
   ];
 
@@ -375,6 +426,7 @@ class CategoryModel {
       subtitle: "Fruity-filled chocolate crepes",
       stars: "4",
       time: "30 min",
+      isLike: false,
     ),
     CategoryModel(
       image: "assets/Images/RecipesByCategories/Desert/chocolate_brownie.png",
@@ -382,6 +434,7 @@ class CategoryModel {
       subtitle: "Rich, fudgy chocolate brownie delight",
       stars: "4",
       time: "30 min",
+      isLike: false,
     ),
     CategoryModel(
       image: "assets/Images/RecipesByCategories/Desert/caramel_flan.png.png",
@@ -389,6 +442,7 @@ class CategoryModel {
       subtitle: "Delicate, colorful French macarons",
       stars: "4",
       time: "30 min",
+      isLike: false,
     ),
     CategoryModel(
       image: "assets/Images/RecipesByCategories/Desert/macarons.png",
@@ -396,6 +450,7 @@ class CategoryModel {
       subtitle: "Smooth, decadent caramel flan treat",
       stars: "4",
       time: "30 min",
+      isLike: false,
     ),
     CategoryModel(
       image: "assets/Images/RecipesByCategories/Desert/nut_brownie.png",
@@ -403,6 +458,7 @@ class CategoryModel {
       subtitle: "Nutty chocolate brownie indulgence",
       stars: "4",
       time: "30 min",
+      isLike: false,
     ),
     CategoryModel(
       image: "assets/Images/RecipesByCategories/Desert/palmer_pastry.png",
@@ -410,6 +466,7 @@ class CategoryModel {
       subtitle: "Flaky, buttery palmier pastry delight",
       stars: "4",
       time: "30 min",
+      isLike: false,
     ),
     CategoryModel(
       image: "assets/Images/RecipesByCategories/Desert/spring_cupcake.png",
@@ -417,6 +474,7 @@ class CategoryModel {
       subtitle: "Fresh, spring-themed cupcake sweetness",
       stars: "4",
       time: "30 min",
+      isLike: false,
     ),
     CategoryModel(
       image: "assets/Images/RecipesByCategories/Desert/cheesecake.png",
@@ -424,6 +482,7 @@ class CategoryModel {
       subtitle: "Creamy strawberry cheesecake bliss",
       stars: "4",
       time: "30 min",
+      isLike: false,
     ),
   ];
 

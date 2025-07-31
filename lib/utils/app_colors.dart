@@ -6,5 +6,6 @@ class AppColors {
   static final Color pinkAccent = Colors.pinkAccent;
   static final Color white = Colors.white;
   static final Color pink = Color(0xFFEC888D);
+  static final Color like = Color(0xFFFD5D69);
 
 }
